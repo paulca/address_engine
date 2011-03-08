@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{address_engine}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Campbell"]
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "address_engine.gemspec",
-    "app/models/configurable.rb",
+    "app/models/address.rb",
     "lib/address_engine.rb",
     "lib/address_engine/engine.rb",
     "lib/generators/address_engine/install_generator.rb",
