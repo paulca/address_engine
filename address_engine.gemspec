@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "address_engine.gemspec",
     "app/models/configurable.rb",
     "lib/address_engine.rb",
     "lib/address_engine/engine.rb",
