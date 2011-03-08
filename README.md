@@ -2,6 +2,19 @@
 
 An `Address` model for your Rails 3 apps. Fields inspired from Amazon.com:
 
+# Installation #
+
+Add `address_engine` to your `Gemfile`:
+
+    gem 'address_engine'
+
+then run the generator to create your addresses table:
+
+    rails generate address_engine:install
+    rake db:migrate
+
+Your'e done! You now have an `Address` model with some sensible validations and fields that will go a long long way:
+
     create_table "addresses", :force => true do |t|
       t.string   "email"
       t.string   "firstname"
