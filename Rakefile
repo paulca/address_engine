@@ -23,7 +23,6 @@ Jeweler::Tasks.new do |gem|
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   gem.add_runtime_dependency 'rails', '~>3.0'
   gem.add_runtime_dependency 'activerecord', '~>3.0'
-  gem.add_runtime_dependency 'carmen', '~>0.2.6'
   gem.files = FileList["[A-Za-z]*", "lib/**/*", "app/**/*"]
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end

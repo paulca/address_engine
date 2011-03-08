@@ -16,6 +16,10 @@ An `Address` model for your Rails 3 apps. Fields inspired from Amazon.com:
       t.datetime "updated_at"
       t.string   "middlename"
     end
+    
+Requires the `carmen` gem (https://rubygems.org/gems/carmen):
+
+    gem install carmen
 
 ## Copyright ##
 
